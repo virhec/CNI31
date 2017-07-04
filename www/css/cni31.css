@@ -1,0 +1,110 @@
+body{
+	background-color: #5588ff;
+}
+
+#oculto{
+	visibility: hidden;
+}
+
+#presentacion{
+	padding: 0px;
+	display: block;
+	width: 100%;
+	text-align: center;
+	visibility: visible;
+}
+
+#dre{
+	margin-top: 50px;
+	font-size: 10px;
+	font-style: italic;
+}
+
+#dre1{
+	font-size: 10px;
+	font-style: italic;
+}
+
+#ugel{
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+#ie{
+	color: #0055ff;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 3px 3px 1px #000000;
+}
+
+#nsc{
+	color: #aaa;
+	font-weight: bold;
+	font-size: 22px;
+	text-shadow: 3px 3px 5px #000000;
+	margin-bottom: 5px;
+}
+
+#insignia{
+	width: 50%;
+}
+
+#titulo{
+	color: #0055ff;
+	font-weight: bold;
+	font-size: 20px;
+	text-shadow: 2px 2px 1px #000000;
+}
+
+#titulo b{
+	color: #002288;
+	font-size: 30px;
+}
+
+#cdp{
+	margin-top: 15px;
+	font-style: italic;
+	margin-bottom: 30px;
+}
+
+#cdp b{
+	margin-top: 10px;
+}
+
+#boton{
+	width: 100px;
+	height: 35px;
+	background-color: #0055ff;
+	border: none;
+	font-weight: bold;
+	border-radius: 15px;
+	box-shadow: 2px 2px 5px #000;
+}
+
+div img{
+	width: 85px;
+	margin: 5px;
+}
+
+div button{
+	width: 85px;
+	height: 85px;
+	background-color: #0055ff;
+	border: none;
+	font-weight: bold;
+	border-radius: 15px;
+	box-shadow: 2px 2px 5px #000;
+	margin: 5px;
+}
+
+#boton1{
+	/*background-image: "images/opcion1.png";*/
+}
+
+#principal{
+	padding: 0px;
+	display: none;
+	width: 100%;
+	text-align: center;
+	visibility: visible;
+}
