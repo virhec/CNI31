@@ -8,7 +8,7 @@
         Compucenter VIRHEC
     </author>
     <preference name="orientation" value="portrait"/>
-    <preference name="fullscreen" value="false"/>
+    <preference name="fullscreen" value="true"/>
     <icon src="www/images/logo.png" />
     <content src="index.html" />
     <access origin="*" />

@@ -27,7 +27,7 @@ body{
 
 #ugel{
 	font-size: 12px;
-	margin-bottom: 5px;
+	margin-bottom: 2px;
 }
 
 #ie{
@@ -40,7 +40,7 @@ body{
 #nsc{
 	color: #aaa;
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 15px;
 	text-shadow: 3px 3px 5px #000000;
 	margin-bottom: 5px;
 }
@@ -58,7 +58,14 @@ body{
 
 #titulo b{
 	color: #002288;
-	font-size: 30px;
+	font-size: 20px;
+}
+
+#TituloResena{
+	color: #002288;
+	font-size: 16px;
+	font-weight: bold;
+	text-shadow: 2px 2px 5px #000;
 }
 
 #cdp{
@@ -81,9 +88,41 @@ body{
 	box-shadow: 2px 2px 5px #000;
 }
 
+.boton{
+	width: 80px;
+	height: 25px;
+	background-color: #0055ff;
+	border: none;
+	font-weight: bold;
+	border-radius: 15px;
+	box-shadow: 2px 2px 5px #000;
+}
+
 div img{
 	width: 85px;
 	margin: 5px;
+}
+
+.opciones{
+	width: 85px;
+	height: 85px;
+}
+
+#textos{
+	width: 85px;
+	font-size: 10px;
+}
+
+.textos{
+	text-align: justify;
+	font-size: 10px;
+}
+
+#autor{
+	margin-top: 30px;
+	font-size: 5px;
+	text-align: right;
+	font-style: italic;
 }
 
 div button{
@@ -97,10 +136,6 @@ div button{
 	margin: 5px;
 }
 
-#boton1{
-	/*background-image: "images/opcion1.png";*/
-}
-
 #principal{
 	padding: 0px;
 	display: none;
@@ -108,3 +143,28 @@ div button{
 	text-align: center;
 	visibility: visible;
 }
+
+#resena{
+	padding: 0px;
+	display: none;
+	width: 100%;
+	text-align: center;
+	visibility: visible;
+}
+
+#MisionVision{
+	padding: 0px;
+	display: none;
+	width: 100%;
+	text-align: center;
+	visibility: visible;
+}
+
+body.conFondo{
+	background-image: "images/fondo.png";
+}
+
+body.sinFondo{
+	background-image: "";
+}
+

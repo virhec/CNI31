@@ -7,6 +7,9 @@
     <author email="hector@virhec.com" href="http://www.virhec.com">
         Compucenter VIRHEC
     </author>
+    <icon src="www/images/logo.png" />
     <content src="index.html" />
     <access origin="*" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
 </widget>
